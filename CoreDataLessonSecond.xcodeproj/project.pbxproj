@@ -9,23 +9,34 @@
 /* Begin PBXBuildFile section */
 		757A75F027C2047600178236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A75EF27C2047600178236 /* AppDelegate.swift */; };
 		757A75F227C2047600178236 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A75F127C2047600178236 /* SceneDelegate.swift */; };
-		757A75F427C2047600178236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A75F327C2047600178236 /* ViewController.swift */; };
 		757A75F727C2047600178236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757A75F527C2047600178236 /* Main.storyboard */; };
 		757A75FA27C2047600178236 /* CoreDataLessonSecond.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 757A75F827C2047600178236 /* CoreDataLessonSecond.xcdatamodeld */; };
 		757A75FC27C2047800178236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757A75FB27C2047800178236 /* Assets.xcassets */; };
 		757A75FF27C2047800178236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757A75FD27C2047800178236 /* LaunchScreen.storyboard */; };
+		757A760A27C2420F00178236 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A760627C2420F00178236 /* Book+CoreDataClass.swift */; };
+		757A760B27C2420F00178236 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A760727C2420F00178236 /* Book+CoreDataProperties.swift */; };
+		757A760C27C2420F00178236 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A760827C2420F00178236 /* User+CoreDataClass.swift */; };
+		757A760D27C2420F00178236 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A760927C2420F00178236 /* User+CoreDataProperties.swift */; };
+		757A761027C2429600178236 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A760F27C2429600178236 /* TableViewController.swift */; };
+		757A761327C26CB500178236 /* ImegeTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757A761227C26CB500178236 /* ImegeTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		757A75EC27C2047600178236 /* CoreDataLessonSecond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataLessonSecond.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		757A75EF27C2047600178236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		757A75F127C2047600178236 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		757A75F327C2047600178236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		757A75F627C2047600178236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		757A75F927C2047600178236 /* CoreDataLessonSecond.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataLessonSecond.xcdatamodel; sourceTree = "<group>"; };
 		757A75FB27C2047800178236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		757A75FE27C2047800178236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		757A760027C2047800178236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757A760627C2420F00178236 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
+		757A760727C2420F00178236 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		757A760827C2420F00178236 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		757A760927C2420F00178236 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		757A760F27C2429600178236 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		757A761127C269D200178236 /* CoreDataLessonSecond v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataLessonSecond v2.xcdatamodel"; sourceTree = "<group>"; };
+		757A761227C26CB500178236 /* ImegeTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImegeTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +69,11 @@
 		757A75EE27C2047600178236 /* CoreDataLessonSecond */ = {
 			isa = PBXGroup;
 			children = (
+				757A760E27C2421300178236 /* Models */,
 				757A75EF27C2047600178236 /* AppDelegate.swift */,
 				757A75F127C2047600178236 /* SceneDelegate.swift */,
-				757A75F327C2047600178236 /* ViewController.swift */,
+				757A761227C26CB500178236 /* ImegeTransformer.swift */,
+				757A760F27C2429600178236 /* TableViewController.swift */,
 				757A75F527C2047600178236 /* Main.storyboard */,
 				757A75FB27C2047800178236 /* Assets.xcassets */,
 				757A75FD27C2047800178236 /* LaunchScreen.storyboard */,
@@ -68,6 +81,17 @@
 				757A75F827C2047600178236 /* CoreDataLessonSecond.xcdatamodeld */,
 			);
 			path = CoreDataLessonSecond;
+			sourceTree = "<group>";
+		};
+		757A760E27C2421300178236 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				757A760627C2420F00178236 /* Book+CoreDataClass.swift */,
+				757A760727C2420F00178236 /* Book+CoreDataProperties.swift */,
+				757A760827C2420F00178236 /* User+CoreDataClass.swift */,
+				757A760927C2420F00178236 /* User+CoreDataProperties.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +165,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				757A760A27C2420F00178236 /* Book+CoreDataClass.swift in Sources */,
 				757A75FA27C2047600178236 /* CoreDataLessonSecond.xcdatamodeld in Sources */,
-				757A75F427C2047600178236 /* ViewController.swift in Sources */,
+				757A760D27C2420F00178236 /* User+CoreDataProperties.swift in Sources */,
+				757A760B27C2420F00178236 /* Book+CoreDataProperties.swift in Sources */,
 				757A75F027C2047600178236 /* AppDelegate.swift in Sources */,
 				757A75F227C2047600178236 /* SceneDelegate.swift in Sources */,
+				757A761027C2429600178236 /* TableViewController.swift in Sources */,
+				757A760C27C2420F00178236 /* User+CoreDataClass.swift in Sources */,
+				757A761327C26CB500178236 /* ImegeTransformer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,9 +398,10 @@
 		757A75F827C2047600178236 /* CoreDataLessonSecond.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				757A761127C269D200178236 /* CoreDataLessonSecond v2.xcdatamodel */,
 				757A75F927C2047600178236 /* CoreDataLessonSecond.xcdatamodel */,
 			);
-			currentVersion = 757A75F927C2047600178236 /* CoreDataLessonSecond.xcdatamodel */;
+			currentVersion = 757A761127C269D200178236 /* CoreDataLessonSecond v2.xcdatamodel */;
 			path = CoreDataLessonSecond.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
